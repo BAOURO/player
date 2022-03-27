@@ -10,7 +10,7 @@ var flotingBtn = document.querySelector('.floting-btn').firstElementChild
 
 //JOUER LE SONS
 volume.value = player.volume*100
-player.play()
+player.autoplay()
 flotingBtn.addEventListener('click',function (ev) {
     // if (player.paused) {
     //     player.play()
