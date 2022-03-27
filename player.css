@@ -100,3 +100,17 @@ html, body {
     cursor: pointer;
     color: rgb(221, 50, 50);
 }
+.floting-btn{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(4, 4, 114);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
